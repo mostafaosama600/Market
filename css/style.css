@@ -2400,8 +2400,9 @@ html:lang(en) .steps-line .the-container .checkout-steps .step-box .step:last-of
 .btn.confirmpayment:hover {
   color: #000;
   background: transparent !important;
-  border: 1px solid var(--btnBackground);
+  border: 0px solid var(--btnBackground) !important;
   border-top-color: #cbc8d0 !important;
+  background-color: #e48fff !important;
 }
 
 .coupon-group > * {
