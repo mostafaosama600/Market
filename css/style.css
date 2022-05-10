@@ -192,6 +192,14 @@ body {
   min-height: 100%;
   text-transform: capitalize;
 }
+::-webkit-scrollbar{
+  width: 12px;
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(#673DA6, #673DA6);
+  height: 180px;
+  border-radius: 1px;
+}
 .new-carousel{
   position: absolute;
   top: 0%;
