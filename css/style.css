@@ -225,9 +225,6 @@ body {
   font-style: italic;
   color: #dbc5dd;
 }
-.new-link-serch{
-  margin: 0px 80px;
-}
 body .page-body#login .banner {
   background: none;
 }
@@ -417,7 +414,7 @@ body .page-body#empty .btn.back-btn {
   min-width: 230px;
 }
 
-body .page-body.simple-page {
+/* body .page-body.simple-page {
   text-align: center;
   animation: slideContent .3s linear .3s backwards;
 }
@@ -427,14 +424,15 @@ body .page-body.simple-page {
 .new-title-carsoul{
   animation: slideContent .3s linear .3s backwards;
 
-}
+} */
 /*  Refresh animation*/
-@keyframes slideContent{
+
+/* @keyframes slideContent{
   0%{
     opacity: 0;
     transform: translateX(-10rem);
   }
-}
+} */
 
 body .page-body.simple-page p.text {
   font-size: 1.188rem;
@@ -2683,9 +2681,6 @@ footer.page-footer .copyrights {
   .two-inputs{
     padding: 20px !important;
   }
-  .new-link-serch{
-    margin: 0px 40px;
-  }
   .page-header nav ul li {
     padding: 0px 9px;
   }
@@ -2748,9 +2743,6 @@ footer.page-footer .copyrights {
   .two-inputs{
     padding: 20px !important;
   }
-  .new-link-serch{
-  margin: 0px 0px;
-}
   body .page-body#login .banner .login-container {
     padding: 0px;
   }
@@ -2791,9 +2783,6 @@ footer.page-footer .copyrights {
 @media (max-width: 960px) {
   .two-inputs{
     padding: 20px !important;
-  }
-  .new-link-serch{
-    margin: 0px 0px;
   }
   .page-header nav {
     -webkit-box-align: start;
@@ -2848,9 +2837,6 @@ footer.page-footer .copyrights {
 @media (max-width: 768px) {
   .two-inputs{
     padding: 20px !important;
-  }
-  .new-link-serch{
-    margin: 0px 0px;
   }
   #product .modal .modal-body {
     -webkit-box-orient: vertical;
